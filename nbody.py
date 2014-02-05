@@ -108,17 +108,21 @@ def task():
 
 
 
-sun= Body((0, 0),(1000, 390), 400)
-p1 = Body((0, 3),(700, 386), 4)
-p2 = Body((0, 1.6), (685, 350), 2)
-p3 = Body((0, 1.3), (600, 375), 3)
-p4 = Body((0, 1), (500, 400), 8)
+p3 = Body((0, 2.583), (612, 386), .00001)
+p4 = Body((0, 0), (512, 386), 100)
+p7 = Body((0, 2.11), (662, 386), .00001)
+p5 = Body((0, 1.826), (712, 386), .00001)
+p6 = Body ((0,1.29), (912, 386), 1)
+p8 = Body((0, 5.774946), (532, 386), .00001)
+moon1 = Body((0, 1.867494589), (932, 386), .0000000001)
 
-bodies.append(sun)
-bodies.append(p1)
-bodies.append(p2)
 bodies.append(p3)
 bodies.append(p4)
+bodies.append(p5)
+bodies.append(p6)
+bodies.append(p7)
+bodies.append(p8)
+bodies.append(moon1)
 
 #for i in range(0, 100):
 #    newBody = Body((0,0), (random.randint(0,1920), random.randint(0,768)), random.randint(1, 50))
